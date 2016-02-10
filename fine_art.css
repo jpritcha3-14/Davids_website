@@ -1,0 +1,70 @@
+/* background: #DDDDD9
+   border/text: #666666
+   highlight: #000000
+*/
+
+body {
+    background-image : url("../images/backgrounds/canvas.jpg");
+    background-repeat : repeat;
+}
+                
+#wrapper {
+    color : #000000;
+    background : #DDDDD9;
+    border-left : 5px solid #666666;
+    border-right : 5px solid #666666;
+}
+                
+#header {
+    border-bottom : 3px solid #666666;
+}
+
+#logo img {
+    border: outset #666666;
+}
+    
+#page_links ul li a {
+    color : #666666;
+    border-left : 2px solid #DDDDD9;
+}
+
+#page_links ul li a:hover {
+    color : #000000;
+    border-left : 2px solid #000000;
+}
+                
+#page_links ul li ul.dropdown {
+    background: #DDDDD9;
+    border : 2px solid #666666;
+}
+
+#page_links ul li ul.dropdown li:hover {
+    color : #DDDDD9;
+}
+
+#page_title {
+    background : #DDDDD9;
+    color : #666666;
+}
+                
+#page_title h1 {
+    border : outset #666666;
+    color : #000000;
+}
+
+.table_title h2 {
+    color : #000000;
+}
+
+table tr td h2 {
+    color : #000000;
+}
+
+table tr td img {
+    border : 3px outset #666666;
+}
+
+#footer {
+    color : #666666;
+    border-top : 3px solid #666666;
+}

@@ -1,0 +1,70 @@
+/* background: #EBFFAD
+   border/highlight: #334C00
+   text: #000000
+*/
+
+body {
+    background-image : url("../images/backgrounds/set.jpg");
+    background-repeat : repeat;
+}
+                
+#wrapper {
+    color : #000000;
+    background : #EBFFAD;   /* BACKGROUND COLOR!! */
+    border-left : 5px solid #334C00;
+    border-right : 5px solid #334C00;
+}
+                
+#header {
+    border-bottom : 3px solid #334C00;
+}
+
+#logo img {
+    border: outset #334C00;
+}
+    
+#page_links ul li a {
+    color : #000000;
+    border-left : 2px solid #EBFFAD;  /* BACKGROUND COLOR!! */
+}
+
+#page_links ul li a:hover {
+    color : #334C00;
+    border-left : 2px solid #334C00;
+}
+                
+#page_links ul li ul.dropdown {
+    background: #EBFFAD;       /* BACKGROUND COLOR!! */
+    border : 2px solid #334C00;
+}
+
+#page_links ul li ul.dropdown li:hover {
+    color : #334C00;
+}
+
+#page_title {
+    background : #EBFFAD; /* BACKGROUND COLOR!! */
+    color : #000000;
+}
+                
+#page_title h1 {
+    border : outset #334C00;
+    color : #000000;
+}
+
+.table_title h2 {
+    color : #000000;
+}
+
+table tr td h2 {
+    color : #000000;
+}
+
+table tr td img {
+    border : 3px outset #334C00;
+}
+
+#footer {
+    color : #000000;
+    border-top : 3px solid #334C00;
+}

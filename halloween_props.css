@@ -1,0 +1,68 @@
+body {
+    background-image : url("../images/backgrounds/ghosts.jpg");
+    background-repeat : repeat;
+}
+                
+#wrapper {
+    color : #FFFFFF;
+    background : #000000;
+    border-left : 5px solid #33CC33;
+    border-right : 5px solid #33CC33;
+}
+                
+#header {
+    border-bottom : 3px solid #33CC33;
+}
+
+#logo img {
+    border: outset #33CC33;
+}
+    
+#page_links ul li a {
+    color : #FFF;
+    border-left : 2px solid #000;
+}
+
+#page_links ul li a:hover {
+    color : #FF9900;
+    border-left : 2px solid #33CC33;
+}
+                
+#page_links ul li ul.dropdown {
+    background: #000;
+    border : 2px solid #33CC33;
+}
+
+#page_links ul li ul.dropdown li:hover {
+    color : #FF9900;
+}
+
+#page_title {
+    background : #000;
+    color : #FF9900;;
+}
+                
+#page_title h1 {
+    border : outset #33CC33;
+}
+                
+#click {
+    color : #FFF;
+}
+
+.table_title h2 {
+    color : #FF9900;
+}
+
+table tr td h2 {
+    color : #FF9900;
+}
+
+table tr td img {
+    border : 3px outset #33CC33;
+}
+
+#footer {
+    color : #FF9900;
+    border-top : 3px solid #33CC33;
+}

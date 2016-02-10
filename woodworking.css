@@ -1,0 +1,70 @@
+/* background: #AD855C
+   border/highlight: #663300
+   text: #000000
+*/
+
+body {
+    background-image : url("../images/backgrounds/wood.jpg");
+    background-repeat : repeat;
+}
+                
+#wrapper {
+    color : #000000;
+    background : #AD855C;   /* BACKGROUND COLOR!! */
+    border-left : 5px solid #663300;
+    border-right : 5px solid #663300;
+}
+                
+#header {
+    border-bottom : 3px solid #663300;
+}
+
+#logo img {
+    border: outset #663300;
+}
+    
+#page_links ul li a {
+    color : #000000;
+    border-left : 2px solid #AD855C;  /* BACKGROUND COLOR!! */
+}
+
+#page_links ul li a:hover {
+    color : #663300;
+    border-left : 2px solid #663300;
+}
+                
+#page_links ul li ul.dropdown {
+    background: #AD855C;       /* BACKGROUND COLOR!! */
+    border : 2px solid #663300;
+}
+
+#page_links ul li ul.dropdown li:hover {
+    color : #663300;
+}
+
+#page_title {
+    background : #AD855C; /* BACKGROUND COLOR!! */
+    color : #000000;
+}
+                
+#page_title h1 {
+    border : outset #663300;
+    color : #000000;
+}
+
+.table_title h2 {
+    color : #000000;
+}
+
+table tr td h2 {
+    color : #000000;
+}
+
+table tr td img {
+    border : 3px outset #663300;
+}
+
+#footer {
+    color : #000000;
+    border-top : 3px solid #663300;
+}

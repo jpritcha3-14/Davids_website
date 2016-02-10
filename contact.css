@@ -1,0 +1,140 @@
+body {
+    background-image : url("../images/backgrounds/wall.png");
+    background-repeat : repeat;
+    margin : 0;
+    padding : 0;
+    font-family: "Helvetica", "Arial";
+}
+
+#wrapper {
+    width : 75%;
+    max-width: 850px;
+    min-width: 450px;
+    color : #000;
+    height : auto;
+    background : #E0E0E0;
+    border-left : 5px solid #666666;
+    border-right : 5px solid #666666;
+    overflow : auto;
+    margin : auto;
+    padding : 10px;
+}
+
+#header {
+    width : 100%;
+    height : 265px;
+    border-bottom : 3px solid #666666;
+}
+
+#logo img {
+    display: block;
+    margin: auto;
+    width: 550px;
+    height: 200px;
+    border: outset #666666;
+}
+
+#page_links {
+    overflow: hidden;
+}
+
+#page_links ul {
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    width: 500px;
+}
+
+#page_links ul li {
+    float : left;
+    list-style : none;
+    padding : 0px 30px 10px 10px;
+}
+
+#page_links ul li a {
+    text-decoration : none;
+    padding : 5px;
+    color : #000000;
+    border-left : 2px solid #E0E0E0;
+}
+
+#page_links ul li a:hover {
+    color : #666666;
+    border-left : 2px solid #666666;
+}
+
+#page_links ul li ul.dropdown {
+    clear : both;
+    background: #E0E0E0;
+    border : 2px solid #666666;
+    display: none;
+    position: absolute;
+    top: 275px;
+    width: 170px;
+}
+
+
+#page_links ul li:hover ul.dropdown {
+    display : block;  /* Display the dropdown */
+}
+
+#page_links ul li ul.dropdown li {
+    clear : both;
+    display : block;
+    font-weight : bold;
+    margin : 5px 0px -5px -30px;
+}
+
+#page_links ul li ul.dropdown li:hover {
+    color : #666666;
+}
+
+#page_title {
+    margin : auto;
+    width : 400px;
+    background : #E0E0E0;
+    text-align : center;
+    color : #000000;
+}
+
+form {
+    margin : 1em auto;
+    background : #FFF;
+    width : 400px;
+    padding : 3em;
+    border : 1px solid #CCC;
+    border-radius : 1em;
+                }
+
+form div + div {
+    margin-top : 1em;
+                }
+
+label {
+    display : inline-block;
+    width : 90px;
+    text-align : right;
+}
+
+#page_title h1 {
+    border : outset #666666;
+    padding : 3px;
+}
+
+p {
+    font-size: 150%;
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+}
+
+#footer {
+    width: 100%;
+    color : #000000;
+    text-align : center;
+    padding-top : 5px;
+    margin-top: 50px;
+    border-top : 3px solid #666666;
+}
